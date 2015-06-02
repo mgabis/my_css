@@ -1,0 +1,82 @@
+ *{
+            margin:0;
+            padding: 0;
+            border:0;
+            
+            }
+            body{
+               
+               background-image: url(fts/edf.jpg);
+               width: 400px;
+               height: 300px;
+               background-repeat: repeat; 
+               background-attachment: fixed;
+               background-position: bottom right;
+               margin: 0;
+            }
+            
+            #menu{
+                background: #000000;
+                height: 40px;
+                width: 2500px;
+                
+            }
+            
+            #menu ul{
+                background: #666666;
+                height: 40px;
+                width: 2500px;   
+            }
+            
+            #menu ul li{
+                display: inline;
+                
+            }
+            
+            #menu ul li a{
+                color: #999999;
+                font: 18px "trebuchet MS", Arial, helvet, sans-serif; 
+                text-decoration: none; 
+                float: left; 
+                padding: 10px 50px;
+                border-right: 1px solid #FFF;
+                
+            }
+            
+            #menu ul li .sub{
+                position: absolute
+            }
+            
+            #menu ul li a:hover{
+                background:#000000;
+                
+                    
+            }
+            span.line{
+                display: block;
+                position: absolute;
+                width: 60px;
+                height: 10px
+            }   
+            #menu ul ul{
+                display: none;
+                position: absolute;
+                width: 160px;
+                height: auto;
+                background-color: #999999
+            }
+          
+            #menu ul li:hover ul{
+            display: block;
+            position: absolute;
+            top: 40px;
+            color: #FFF;
+            
+            
+            
+            }              
+            
+            #menu ul li ul{
+            background-color: #000000;
+            }
+            
